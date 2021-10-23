@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="resources/style.css" type="text/css">
+</head>
+<body>
+
+<section id="navbar"></section>
+		
+<section class="latestMeals">
+	<hr><div><span>Latest Meals</span></div> <hr>
+	<div id="showMenu"></div>
+</section>
+
+
+<!--
+<section class="PopularIngredients">
+	<hr><div><span>List all Categories</span></div><hr>
+	<div id="showMenu2"></div>
+</section>
+
+				
+<section class="RandomMeals">
+	<hr><div><span>Browse Country</span></div><hr>
+	<div id="showMenu3"></div>
+</section>
+
+<section class="ShowCategoryFood">
+	<hr><div><span>Show Category Food</span></div><hr>
+	<div id="showMenu4"></div>
+</section>
+-->
+
+<script type="module">
+	 import navbar from './includes/navbar.js';
+
+	 let navbar_div = document.getElementById('navbar');
+	 navbar_div.innerHTML = navbar();
+	
+</script>
+
+<script src="scripts/index.js"></script>
+				
+</body>
+</html>

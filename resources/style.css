@@ -1,0 +1,118 @@
+      
+		body{
+		}
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 4%;
+	padding-right: 4%;
+	border:  solid 1px black;
+}
+
+#options{
+	display: flex;
+	justify-content: space-between;
+}
+
+#options h3{
+	padding-left: 30px;
+	padding-right: 10px;
+}
+a{
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+		
+		.latestMeals,
+		.PopularIngredients,
+		.RandomMeals,
+		.ShowCategoryFood{
+			width: 85%;
+			margin: auto;
+		}
+		.latestMeals span,
+		.PopularIngredients span,
+		.RandomMeals span,
+		.ShowCategoryFood span{
+			font-size: 20px;
+			letter-spacing: 2px;
+			margin-left: 40%;
+		}
+		#showMenu{
+			display: grid;
+			grid-template-columns: repeat(5 , 19%);
+			grid-gap: 15px;
+			justify-content: center;
+		}
+		.news{
+			margin: 10px 10px 10px 10px;
+			cursor: pointer;
+		}
+		.news:hover{
+			
+		}
+		.news b {
+			font-size: 16px;
+			letter-spacing: 2px;
+			display: block;
+			font-weight: 800;
+			margin: 5px 0px 0px 0px;
+			text-align: center;
+		}
+		.news img{
+			width: 100%;
+			background-size: cover;
+			height: 200px;
+			border-radius: 5px;
+		}
+		#showMenu2{
+			display: grid;
+			grid-template-columns: repeat(5 , 19%);
+			grid-gap: 15px;
+			justify-content: center;
+		}
+		#showMenu4{
+			display: grid;
+			grid-template-columns: repeat(5 , 19%);
+			grid-gap: 15px;
+			justify-content: center;
+		}
+
+	#cartList{
+			width: 95%;
+			margin: auto;
+			display: flex;
+			justify-content: center;
+		}
+		.left1{
+			width: 38%;
+		}
+		.left1 img{
+			width: 100%;
+		}
+		
+		.left2{
+			width: 58%;
+		}
+		.namemeal{
+			font-size: 30px;
+			display: inline-block;
+			padding-left: 22px;
+			margin: 10px 0px;
+			letter-spacing: 2px;
+		}
+		.left2 table{
+			padding: 0px 0px 0px 20px;
+		}
+*/
+		tbody th{
+			letter-spacing: 2px;
+			font-size: 22px;
+		}
+		
+		tbody td{
+			letter-spacing: 2px;
+			word-spacing: 2px;
+		}
